@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- index.html  21 Nov 2019 03:44:50 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Otika - Admin Dashboard Template</title>
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <!-- Custom style CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+  <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_1dd6a536202f45a8992c0c26a7ae45a21'
+    });
+</script>
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar sticky" >
+        <div class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a></li>
+            <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                <i data-feather="maximize"></i>
+              </a></li>
+            <li>
+              <form class="form-inline mr-auto">
+                <div class="search-element">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="200">
+                  <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav navbar-right">
+           
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Messages
+                <div class="float-right">
+                  <a href="#">Mark All As Read</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-message">
+                <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar
+											text-white"> <img alt="image" src="assets/img/users/logo.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">John
+                      Deo</span>
+                    <span class="time messege-text">Please check your mail !!</span>
+                    <span class="time">2 Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Sarah
+                      Smith</span> <span class="time messege-text">Request for leave
+                      application</span>
+                    <span class="time">5 Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-5.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Jacob
+                      Ryan</span> <span class="time messege-text">Your payment invoice is
+                      generated.</span> <span class="time">12 Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Lina
+                      Smith</span> <span class="time messege-text">hii John, I have upload
+                      doc
+                      related to task.</span> <span class="time">30
+                      Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-3.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Jalpa
+                      Joshi</span> <span class="time messege-text">Please do as specify.
+                      Let me
+                      know if you have any query.</span> <span class="time">1
+                      Days Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Sarah
+                      Smith</span> <span class="time messege-text">Client Requirements</span>
+                    <span class="time">2 Days Ago</span>
+                  </span>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link notification-toggle nav-link-lg"><i data-feather="bell" class="bell"></i>
+            </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-header">
+                Notifications
+                <div class="float-right">
+                  <a href="#">Mark All As Read</a>
+                </div>
+              </div>
+              
+              <div class="dropdown-footer text-center">
+                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/users/logo.png"
+                class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
+            
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index.html"> <img alt="image" src="assets/img/users/logo.png" class="header-logo" /> <span
+                class="logo-name">Magellan </span>
+            </a>
+          </div>
+          <ul class="sidebar-menu">
+         
+            <li class="dropdown active">
+              <a href="index.html" class="nav-link"><i data-feather="monitor"></i><span>Acceuil</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="blog.html" class="nav-link" ><i data-feather="activity"></i><span>Activités</span></a>
+         
+                          
+            </li>
+
+            <li class="dropdown ">
+              <a href="widget-data.html" class="nav-link" ><i data-feather="monitor"></i><span>Avis</span></a>
+            </li>
+          
+            <!-- <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="mail"></i><span> Procédures </span></a>
+              <ul class="dropdown-menu">
+
+                <li><a class="nav-link" href="email-read.html">Resérvation de Logements </a></li>
+              </ul>
+            </li> -->
+    
+           
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i
+                  data-feather="user-check"></i><span> Contact </span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="contact.html"> Contact</a></li>
+                 
+                <li><a href="pricing.html">Autres</a></li>
+                
+              </ul>
+            </li>
+           
+           
+       
+          </ul>
+        </aside>
+      </div>
+      <!-- Main Content -->
+      <div class="main-content " style="background-color: rgba(135,205,217);">
+        <section class="section">
+          <div class="section-body">
+            <div class="row mt-sm-4">
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card author-box">
+                  <div class="card-body">
+                    <div class="author-box-center">
+                      <img alt="image" src="assets/img/users/logo.png" width="150px" class=" ">
+                      <div class="clearfix"></div>
+                      <div class="author-box-name">
+                        <span href="#" style="color: rgb(23, 131, 23);" > <span style="font-size: 1.25em;" > Accompagner </span> <br>
+                          vos projets de voyage en toute sérénité </span>
+                      </div>
+                    
+                    </div>
+                    <div class="text-center">
+                      <div class="author-box-description">
+                        <p>
+                          
+                        </p>
+                      </div>
+
+                      <a href="#" class="btn btn-social-icon mr-1 btn-facebook">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#" class="btn btn-social-icon mr-1 btn-twitter">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#" class="btn btn-social-icon mr-1 btn-github">
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a href="#" class="btn btn-social-icon mr-1 btn-instagram">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <div class="w-100 d-sm-none"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="" style="text-align: center;">
+                    <h4 style ="color:rgb(23, 131, 23); ;font-weight: bold;font-family: Arial, Helvetica, sans-serif;font-size: 2em;""> Nos  Valeurs </h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="py-6">
+                      <p class="clearfix">
+                        <span class="float-left" style="font-weight: bold;color:orange ;">
+                          Professionnalisme
+                        </span> <br>
+                        <span class="float-right " style="color:rgba(19, 15, 201,0.7);text-align: justify;">
+                          Magealan Travel pour assurer la bonne tenue de ses activités et la satisfaction de sa clientèle
+                          attache du prix quant au sérieux ,à la rigueur avec laquelle elle traite les dossiers et les demandes de celle-ci. 
+                        </span>
+                      </p>
+                      <p class="clearfix">
+                        <span class="float-left" style="font-weight: bold;color:orange ;">
+                          Travail d'equipe
+                        </span>
+                       <br> <span class="" style ="color:rgba(19, 15, 201,0.7); text-align: justify;">
+                           L'entreprise met en synergie les competences de chacun des employés afin d'en tirer le meilleur et de 
+                           produire une qualité de service satisfaisante pour les clients 
+                        </span>
+                      </p>
+                      <p class=" ">
+                        <span class="float-left" style="font-weight: bold;color:orange ;">
+                         Ethique
+                        </span>
+                        <br><span class="" style ="color:rgba(19, 15, 201,0.7); text-align: justify;">
+                          Nous menons nos activités dans le respect des codes moraux mais aussi des règles et loi en vigueur.
+                       </span>
+                         
+                      </p>
+                      <p class="clearfix">
+                        <span class="float-left" style="font-weight: bold;color:orange ;">
+                          Fiabilité
+                        </span>
+                        <br>
+                        <span class=" " style ="color:rgba(19, 15, 201,0.7);text-align: justify;"> 
+                           Avec ses années d'experience et son reseau de partenaires ,l'entreprise offre des garanties telles:
+                           la tracabilité des opérations menées pas à pas ,la qualité des partenaires ,la sécurisation des fonds. 
+                        </span>
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <!-- test -->
+
+
+
+                    <!-- fin -->
+
+              
+                
+              </div>
+              
+              <div class="col-12 col-md-12 col-lg-8">
+                <div class="card">
+                  <div class="">
+                     
+                    <div class="tab-content tab-bordered" id="myTab3Content">
+                      <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="home-tab2">
+                        
+                        
+                        <div class="" style="padding: 0px; color:rgba(19, 15, 201,0.7) ;font-weight: bold;font-family: Arial, Helvetica, sans-serif;font-size: 2em;">Qui sommes-nous ? </div>
+                        <div style="margin-left: 0px; ">
+                          <br>
+                          
+                            <!--  -->
+                            <div class="row"       style="margin: 0px;padding: 0px;" >
+                              <div class=" col-md-6 col-lg-6 col-sm-6 col-xs-6   " style="width: 50%;margin: 0px;padding: 0px;">
+                                <img alt="image"style="margin: 0px;"  width="200px" height="130px" src="assets/img/users/val1.jpg" class="  col-md-12 col-lg-12 col-sm-12 col-xs-12 " />
+                                <!-- <img class="col-md-12 "  alt="image" width="230px" height="130px" class="" src="assets/img/users/val1.jpg"> -->
+                              </div>
+                              <!-- debut part 2 -->
+                              <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6    " style="width: 50%;margin: 0px;padding: 0px;"  >
+                                <img alt="image"     width="100%" height="130px" src="assets/img/users/val3.jpg"   class=" col-md-12 col-lg-12 col-sm-12 col-xs-12" />
+                                <!-- <img class="col-md-12 "  alt="image" width="230px" height="130px" class="" src="assets/img/users/val1.jpg"> -->
+                              </div>
+                                               
+                            </div>
+
+                                <!--  -->
+                                <br>
+
+                               <div style="text-align: justify;">  Magellan est une agence de promotion des études à l'etranger née en 2016 par la volonté de jeunes Camerounais de faciliter les 
+                              procédures d'accès aux écoles etrangères aussi bien en Afrique qu'en Europe.Née cette année-là sous le nom intelligentsia Travel Agency
+                              ,l'Entreprise a connu au fur et à mesure une évolution.En 2017 dans un souci de différenciation ,l'Entreprise change de dénomination pour
+                               devenir Magelan Sarl.</div> 
+                        </div> <br><hr>
+                        <br><div class="" style="color:rgb(23, 131, 23); ;font-weight: bold;font-family: Arial, Helvetica, sans-serif;font-size: 2em;">Nos missions </div>
+                        <br><ul>
+                          <li style="font-weight: bold;color:orange ;"> Promouvoir </li>
+
+                              <div style="text-align: justify;"> Magellan sarl est une agence de promotion des études à l'étranger née en 2016 par la volonté des jeunes Camerounais de faciliter les procédures d'accès aux écoles étrangères aussi bien en Afrique qu'en Europe.Née  cette année-là a connu au fur et à mesure une évolution.En 2017 dans un souci de différenciation ,l'entreprise change de dénomination pour devenir Magellan Sarl. </div>
+                          <li style="font-weight: bold;color:orange ;">Accompagner </li>
+                           <div style="text-align: justify;">En aidant les clients dans les démarches administratives ,et l'obtention de tout autre élément important dans le processus
+                            de voyage.Et en suivant le client tout au long de sa procédure.</div> 
+                          
+                        </ul>
+                      </div>
+                      <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="profile-tab2">
+                        <form method="post" class="needs-validation">
+                          <div class="card-header">
+                            <h4>Edit Profile</h4>
+                          </div>
+                          <div class="card-body">
+                            <div class="row">
+                              <div class="form-group col-md-6 col-12">
+                                <label>First Name</label>
+                                <input type="text" class="form-control" value="John">
+                                <div class="invalid-feedback">
+                                  Please fill in the first name
+                                </div>
+                              </div>
+                              <div class="form-group col-md-6 col-12">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" value="Deo">
+                                <div class="invalid-feedback">
+                                  Please fill in the last name
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="form-group col-md-7 col-12">
+                                <label>Email</label>
+                                <input type="email" class="form-control" value="test@example.com">
+                                <div class="invalid-feedback">
+                                  Please fill in the email
+                                </div>
+                              </div>
+                              <div class="form-group col-md-5 col-12">
+                                <label>Phone</label>
+                                <input type="tel" class="form-control" value="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="form-group col-12">
+                                <label>Bio</label>
+                                <textarea
+                                  class="form-control summernote-simple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptatum alias molestias minus quod dignissimos.</textarea>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="form-group mb-0 col-12">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" name="remember" class="custom-control-input" id="newsletter">
+                                  <label class="custom-control-label" for="newsletter">Subscribe to newsletter</label>
+                                  <div class="text-muted form-text">
+                                    You will get new information about products, offers and promotions
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-footer text-right">
+                            <button class="btn btn-primary">Save Changes</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-- debut -->
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mt-3" >
+              <img class="col-md-12 "  alt="image" width="100px" height="130px" class="" src="assets/img/users/im1.jpg">
+            </div>
+            <!-- debut part 2 -->
+            <div class="col-md-4 col-sm-6 mt-3"  >
+              <img class="col-md-12" alt="image" width="100px" height="130px"  class="" src="assets/img/users/im2.jpg">
+            </div>
+            <!-- debut part 3 -->
+            <div class="col-md-4 col-sm-6 mt-3 mb-3">
+              <img class="col-md-12 "  alt="image" width="100px" height="130px"  class="" src="assets/img/users/user1.jpg">
+            </div>
+
+          </div>
+
+          <!-- fin -->
+        <div class="settingSidebar">
+          <a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
+          </a>
+          <div class="settingSidebar-body ps-container ps-theme-default">
+            <div class=" fade show active">
+              <div class="setting-panel-header">Setting Panel
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Select Layout</h6>
+                <div class="selectgroup layout-color w-50">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="1" class="selectgroup-input-radio select-layout" checked>
+                    <span class="selectgroup-button">Light</span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="2" class="selectgroup-input-radio select-layout">
+                    <span class="selectgroup-button">Dark</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Sidebar Color</h6>
+                <div class="selectgroup selectgroup-pills sidebar-color">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="1" class="selectgroup-input select-sidebar">
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Light Sidebar"><i class="fas fa-sun"></i></span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="2" class="selectgroup-input select-sidebar" checked>
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Dark Sidebar"><i class="fas fa-moon"></i></span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Color Theme</h6>
+                <div class="theme-setting-options">
+                  <ul class="choose-theme list-unstyled mb-0">
+                    <li title="white" class="active">
+                      <div class="white"></div>
+                    </li>
+                    <li title="cyan">
+                      <div class="cyan"></div>
+                    </li>
+                    <li title="black">
+                      <div class="black"></div>
+                    </li>
+                    <li title="purple">
+                      <div class="purple"></div>
+                    </li>
+                    <li title="orange">
+                      <div class="orange"></div>
+                    </li>
+                    <li title="green">
+                      <div class="green"></div>
+                    </li>
+                    <li title="red">
+                      <div class="red"></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="mini_sidebar_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Mini Sidebar</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="sticky_header_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Sticky Header</span>
+                  </label>
+                </div>
+              </div>
+              <div class="mt-4 mb-4 p-3 align-center rt-sidebar-last-ele">
+                <a href="#" class="btn btn-icon icon-left btn-primary btn-restore-theme">
+                  <i class="fas fa-undo"></i> Restore Default
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer "  style="background-color: antiquewhite;">
+        <div class= "">
+          <span href="#" style="text-align: center;"><p > <span style="text-transform: uppercase;"> Copyright &copy;</span>  By JanohiCorporation 2022</p> </span>
+        </div>
+        <div class="footer-right">
+        </div>
+      </footer>
+    </div>
+  </div>
+<!-- General JS Scripts -->
+<script src="assets/js/app.min.js"></script>
+<!-- JS Libraies -->
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyB55Np3_WsZwUQ9NS7DP-HnneleZLYZDNw&amp;sensor=true"></script>
+<script src="assets/bundles/gmaps.js"></script>
+<!-- Page Specific JS File -->
+<script src="assets/js/page/contact.js"></script>
+<!-- Template JS File -->
+<script src="assets/js/scripts.js"></script>
+<!-- Custom JS File -->
+<script src="assets/js/custom.js"></script>
+</body>
+
+
+<!-- profile.html  21 Nov 2019 03:49:32 GMT -->
+</html>
